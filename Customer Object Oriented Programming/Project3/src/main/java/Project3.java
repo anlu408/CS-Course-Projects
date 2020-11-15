@@ -238,15 +238,15 @@ class Customer //Class Definition
     //Prints info as per Project Specifications
     public void printInfo()
     {
-        System.out.println(getLastName() + ", " + getFirstName() + 
-                " | " + getId() + " | $" + getBalance());
+        System.out.println(getLastName() + ", " + getFirstName() + " | " 
+                + getCompany() + " | " + getId() + " | $" + getBalance());
     }
     
     //Added extra line of code as per Output requirements
     public void printInfoUpdate()
     {
-        System.out.println(getLastName() + ", " + getFirstName() + 
-                " | " + getId() + " | $" + getBalance());
+        System.out.println(getLastName() + ", " + getFirstName() + " | " 
+                + getCompany() + " | " + getId() + " | $" + getBalance());
         System.out.println("New data updated");
     }
 }
